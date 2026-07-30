@@ -28,8 +28,8 @@ from fastapi import FastAPI
 from fastapi.responses import FileResponse, PlainTextResponse
 
 # ---------------------------------------------------------------- config
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-AIPIPE_TOKEN = os.environ.get("AIPIPE_TOKEN", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8625013810:AAE83_RtEqzb3QtStbqfQpqVwsOAlF8DWSg")
+AIPIPE_TOKEN = os.environ.get("AIPIPE_TOKEN", "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIxZjMwMDA0NzhAZHMuc3R1ZHkuaWl0bS5hYy5pbiIsImlhdCI6MTc4NTM5MzkzNiwiaXNzIjoiaHR0cHM6Ly9haXBpcGUub3JnIiwiYXVkIjoiYWlwaXBlLWFwaSIsImV4cCI6MTc4NTk5ODczNn0.R9_zx0KAzf9ujsVPFLvd65J_hUod1iHD19X31prbNo4")
 MODEL = os.environ.get("MODEL", "gpt-4o-mini")
 MODEL_BASE_URL = os.environ.get("MODEL_BASE_URL", "https://aipipe.org/openai/v1")
 BASE_URL = os.environ.get("BASE_URL", "http://localhost:8000").rstrip("/")
